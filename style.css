@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", san-serif;
+
+}
+.allcontainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #253031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.imagecontainer{
+    width: 213px;
+    height: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2978A0;
+    border-radius: 50%;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #2978A0;
+    margin-top: 20px;
+    margin-bottom: 33px;
+}
+p{
+    line-height: 0;
+    margin: 12px;
+}
+.name{
+    font-weight: 600;
+    font-size: 20px;
+}
+.description{
+    font-size: 14px;
+}
+.buttoncontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 70px;
+}
+.ig{
+    margin-left: 176px;
+}
+a{
+    text-decoration: none;
+}
+.linkedin{
+    margin-left: 194px;
+}
+.github{
+    margin-left: 206px;
+}
+.behance{
+    margin-left: 190px;
+}
+.button{
+    width: 326px;
+    height: 49px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    text-align: start;
+    font-weight: 600;
+    border: 2px solid #2978A0;
+    border-radius: 5px;
+    background-color: #2978A0;
+    color: #253031; 
+}
+.button:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+.iconcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+}
+.icon{
+    transform: scale(0.9);
+}
+.icon:hover{
+    transform: scale(1);
+    transition: ease 0.3s;
+}
